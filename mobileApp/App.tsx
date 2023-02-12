@@ -4,13 +4,14 @@ import {
   ScrollView,
   Text,
 } from 'react-native';
-import styled from 'styled-components/native'
+import styled from 'styled-components'
 
 const ScreenContainer = styled(SafeAreaView)`
   height: 100%;
 `;
 
 function App() {
+  const test = "testing my lint";
   return (
     <ScreenContainer>
       <ScrollView>
